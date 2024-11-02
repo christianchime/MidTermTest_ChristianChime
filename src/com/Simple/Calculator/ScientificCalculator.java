@@ -39,8 +39,6 @@ public class ScientificCalculator extends Calculator {
 		System.out.println("Enter Second Number: ");
 		y = read.nextInt(); 
 		}
-		
-		
 		calcS.a = x;
 		calcS.b = y;
 		if (operator.equals("+")) {
@@ -65,8 +63,6 @@ public class ScientificCalculator extends Calculator {
 		else
 			//this handles situations where user enters wrong operator
 			System.out.println("Enter Correct Operator Values!");
-		
-		
 		read.close();
 	}
 	

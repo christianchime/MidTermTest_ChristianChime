@@ -28,5 +28,4 @@ public class Calculator {
 			System.out.println("Please try Again");
 		}
 	}
-	
 }
